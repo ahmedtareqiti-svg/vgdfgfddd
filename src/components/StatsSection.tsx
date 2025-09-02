@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Trophy, TrendingUp, Award, Star, AlertCircle, Database } from 'lucide-react';
+import { Users, Trophy, TrendingUp, Award, Star, AlertCircle, Database, BarChart3 } from 'lucide-react';
 import { ContestStats } from '../types';
 import { supabase, testConnection } from '../utils/supabase';
 

@@ -26,7 +26,7 @@ export const testConnection = async () => {
   try {
     const { data, error } = await supabase
       .from('results')
-      .select('count(*)')
+      .select('*', { count: 'exact', head: true })
       .limit(1);
     
     if (error) {
